@@ -135,14 +135,3 @@ The ML service exposes:
 5. Review your predicted price and proceed with booking if desired.
 6. Access your dashboard for bookings and history.
 
-## Notes
-
-- The ML model artifacts are expected in the ml-service folder.
-- If the model files are missing, train the model first using the project’s training workflow before running predictions.
-- The backend seeds a default admin account on startup:
-  - Email: admin@aeropredict.com
-  - Password: admin123
-
-## Purpose
-
-This project demonstrates how machine learning, modern web development, and backend APIs can be combined to create a practical travel fare prediction application with real user workflows.
